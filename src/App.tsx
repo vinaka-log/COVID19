@@ -6,15 +6,17 @@ import PiePlot from './components/PiePlot';
 import BarPlot from './components/BarPlot';
 import RadarPlot from './components/RadarPlot';
 import BubblePlot from './components/BubblePlot';
+import MaterialUi from './components/MaterialUi';
 
 function App() {
   return (
     <div className="App">
-      <LinePlot />
+      {/* <LinePlot />
       <PiePlot/>
       <BarPlot />
       <RadarPlot />
-      <BubblePlot />
+      <BubblePlot /> */}
+      <MaterialUi />
     </div>
   );
 }
